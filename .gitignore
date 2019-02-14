@@ -1,3 +1,6 @@
+#dependancies
+/node_module
+
 # testing
 /coverage
 
