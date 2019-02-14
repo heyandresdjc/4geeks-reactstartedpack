@@ -1,5 +1,7 @@
-FROM node:11-alpine
+FROM node:8
 WORKDIR /usr/src/app
-COPY . .
-RUN npm install --silent
+COPY package.json /usr/src/app
+COPY package-lock.json /usr/src/app
+RUN npm install
+COPY . usr/src/app
 CMD npm start

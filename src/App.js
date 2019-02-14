@@ -9,7 +9,7 @@ class App extends Component {
       <React.Fragment>
         <div className="app">
           <h1>
-            Welcome to <br/>4Geeks Academy
+            Welcome to <br/>4Geeks Academy!
           </h1>
           <p>This is a landing example to setup your development enverioment, for the course.</p>
           <p>Go ahead and edit the <pre>src/App.js</pre></p>

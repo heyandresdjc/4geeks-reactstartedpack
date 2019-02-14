@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  first-go:
-    image: first-go
+  react:
+    image: react-go
     build: .
     volumes:
       - .:/usr/src/app
